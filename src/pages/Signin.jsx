@@ -1,6 +1,6 @@
-import Google from "/Images/Google.png"
-import img from '/Images/FondoM.jpeg'
-import arrow from '/Images/Arrow.png'
+import Google from "../../public/Images/Google.png"
+import img from '../../public/Images/FondoM.jpeg'
+import arr from '../../public/Images/arrowSummary.png'
 import { Link as Anchor } from 'react-router-dom'
 import { useRef } from "react"
 import axios from "axios"
@@ -38,7 +38,7 @@ export default function Signin() {
   return (
 
     <div className='flex w-full min-h-screen justify-center'>
-      <Anchor to={'/'}><img src={arrow} alt="" className='absolute left-10 top-10 w-8 h-4' /></Anchor>
+      <Anchor to={'/'}><img src={arr} alt="" className='absolute left-10 top-10 w-8 h-4' /></Anchor>
       <div className='min-h-full w-full flex flex-col justify-center items-end md:pr-[10%] md:py-20 bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${img})` }}>
         <div className="flex flex-col items-center justify-center w-full md:w-[65%] lg:w-[45%] min-h-full py-8 bg-white bg-opacity-20 md:bg-opacity-40 md:rounded-2xl">
           <form className='flex flex-col items-center justify-center w-full' >

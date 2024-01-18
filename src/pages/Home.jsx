@@ -1,8 +1,8 @@
 import Carrousel from "../components/Carrousel"
 import CardCategories from "../components/CardCategories"
-import img1 from "/Images/img1.jpg"
-import img2 from "/Images/img2.jpg"
-import img3 from "/Images/img3.jpg"
+import img1 from "../../public/Images/img1.jpg"
+import img2 from "../../public/Images/img2.jpg"
+import img3 from "../../public/Images/img3.jpg"
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <>
             <main className="flex-col justify-around mt-14 pb-10 w-full">
                 <Carrousel />
-             {/*    <CardCategories /> */}
+                <CardCategories />
                 <div className="hidden lg:flex justify-around py-5 px-4 md:px-2 gap-8 bg-gray-200 -mt-4 w-full h-[650px] overflow-x-hidden">
                     <img src={img1} alt="" className="w-1/3 object-cover rounded-s-lg"/>
                     <img src={img2} alt="" className="w-1/3 object-cover"/>

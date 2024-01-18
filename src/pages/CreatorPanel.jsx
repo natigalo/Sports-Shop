@@ -1,4 +1,4 @@
-import logo from "/Images/LogoCorto.png"
+import logo from "../../public/Images/LogoCorto.png"
 
 export default function CreatorPanel() {
 

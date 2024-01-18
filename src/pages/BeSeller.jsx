@@ -1,9 +1,9 @@
-import arrow from '/Images/Arrow.png'
+import arrow from '../../public/Images/Arrow.png'
 import { Link as Anchor, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import apiUrl from '../apiUrl';
 import Swal from "sweetalert2"
-import seller from '/Images/seller.jpg'
+import seller from '../../public/Images/seller.jpg'
 import { useRef } from 'react'
 import header from '../header.js'
 

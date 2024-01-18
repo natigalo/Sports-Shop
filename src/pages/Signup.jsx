@@ -1,5 +1,5 @@
-import img from '/Images/FondoH.jpeg';
-import arrow from '/Images/Arrow.png';
+import img from '../../public/Images/FondoH.jpeg';
+import arrow from '../../public/Images/arrowSummary.png';
 import { Link as Anchor, useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
 import axios from 'axios';

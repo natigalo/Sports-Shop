@@ -1,5 +1,5 @@
-import Banner from "/Images/Banner7.jpg"
-import arrow from '/Images/Arrow.png';
+import Banner from "../../public/Images/Banner7.jpg"
+import arrow from '../../public/Images/Arrow.png';
 import { Link as Anchor } from "react-router-dom";
 
 export default function PaymentForm() {

@@ -1,4 +1,4 @@
-import logo from "/Images/LogoCorto.png"
+import logo from "../../public/Images/LogoCorto.png"
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useState } from "react"
 import axios from "axios";

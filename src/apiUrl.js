@@ -1,1 +1,1 @@
-export default "https://sport-shhop-back.onrender.com/";
+export default "https://sport-shhop-back.onrender.com/api/";
